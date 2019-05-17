@@ -8,6 +8,13 @@ $(document).ready(function(){
         $('.button-container').append(button);
     }
 
-    var createButtonsFromArr
+    var createButtonsFromArr = function(arr){
+        for(var i = 0; i < arr.length; i++){
+            createButton(arr[i]);
+        }
+    }
+
+    createButtonsFromArr(searchTerms);
+    
 
 })
