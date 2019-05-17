@@ -7,17 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="assets/javascript/giftastic.js"></script>
 
 </head>
 
 <body>
     <div class="container">
+        <form>
+           <input id="search" type="text">
+           <input id="add-button" value="Add Button" type="submit">
+        </form>
         <div class=row>
             <div class="col-md">
                 <div class="content">
@@ -27,6 +32,11 @@
         </div>
         <div class="row">
             <div class="col-md" id="button-container"> </div>
+        </div>
+        <div class="row">
+            <div class="col-md">
+                <div id="gifs"></div>
+            </div>
         </div>
     </div>
 </body>
