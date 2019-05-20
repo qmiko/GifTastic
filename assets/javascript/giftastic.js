@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var searchTerms = ['cat', 'cow', 'doggo', 'horse']
+    var searchTerms = []
     console.log("testing...");
 
 
