@@ -33,7 +33,7 @@ $(document).ready(function(){
     
     var gifQuery = function(term){
         var apiKey ="6fqQZoEMgJpAr0tn1oUZy6BbOW5Oahc9";
-        var queryURL = "http://api.giphy.com/v1/gifs/search?apiKey="
+        var queryURL = "https://api.giphy.com/v1/gifs/search?apiKey="
             +apiKey
             +"&q="+term;
 

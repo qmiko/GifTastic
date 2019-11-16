@@ -1,5 +1,5 @@
 # GifTastic
-Gif fetching application using the GIPHY API to search and find GIFs. 
+Gif fetching application using the GIPHY API to search and find GIFs.
 # Motivation
 Bootcamp class homework
 # Technologies Used
