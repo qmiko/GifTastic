@@ -11,6 +11,6 @@ Bootcamp class homework
 - Giphy API
 - Ajax
 ## Authors
-- @qmiko
+- Shaquima Johnson McSwain
 ## Check it out!
 https://qmiko.github.io/GifTastic/
