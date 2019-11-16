@@ -15,4 +15,4 @@ Assignment from the U of M Coding Bootcamp
 ## Check it out!
 https://qmiko.github.io/GifTastic/
 
-![alt text](relative/path/to/img.png)
+![alt text](/img.png)
